@@ -1,4 +1,5 @@
 # include <stdio.h>
+# include <unistd.h>
 
 extern "C" int init(int d_lev);
 extern "C" int take_picture();
